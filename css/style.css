@@ -1,0 +1,159 @@
+/*GENERAL*/
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/*TEXT AREA*/
+
+#topText {
+  font-weight: 200;
+}
+
+#textDiv {
+  margin-top: 7.5%;
+  text-align: center;
+}
+
+#textDiv p {
+  margin-top: 20px;
+  font-weight: 200;
+  width: 42%;
+  position: relative;
+  left: 29%;
+}
+
+/* BOXES */
+
+#boxContainer {
+  margin-top: 35px;
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  grid-template-rows: 85px 85px 85px 85px 85px 85px 85px 85px;
+  justify-content: space-around;
+}
+
+.boxes {
+  width: 95%;
+  -webkit-box-shadow: 2px 35px 65px -30px rgba(0, 0, 0, 0.32);
+  -moz-box-shadow: 2px 35px 65px -30px rgba(0, 0, 0, 0.32);
+  box-shadow: 2px 35px 65px -30px rgba(0, 0, 0, 0.32);
+}
+
+/* Supervisor box */
+
+#boxLeft {
+  grid-column-start: 1;
+  grid-row-start: 3;
+  grid-row-end: 6;
+  border-top: 3px solid turquoise;
+}
+
+#boxLeft .container {
+  margin-top: 25px;
+}
+
+#boxLeft .container h5 {
+  font-size: 1.3em;
+}
+
+#boxLeft .container p {
+  margin-top: 10px;
+  font-size: 1.2em;
+  font-weight: 200;
+}
+
+#boxLeft .container img {
+  margin: 15px;
+  float: right;
+}
+
+/*Team Builder Box*/
+
+#boxCenterTop {
+  grid-column-start: 2;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  border-top: 3px solid red;
+}
+
+#boxCenterTop .container {
+  margin-top: 25px;
+}
+
+#boxCenterTop .container h5 {
+  font-size: 1.3em;
+}
+
+#boxCenterTop .container p {
+  margin-top: 10px;
+  font-size: 1.2em;
+  font-weight: 200;
+}
+
+#boxCenterTop .container img {
+  margin: 15px;
+  float: right;
+}
+
+/*Karma Box*/
+
+#boxCenterBottom .container {
+  margin-top: 25px;
+}
+
+#boxCenterBottom .container p {
+  margin-top: 10px;
+  font-size: 1.2em;
+  font-weight: 200;
+}
+
+#boxCenterBottom .container img {
+  margin: 15px;
+  float: right;
+}
+
+#boxCenterBottom {
+  grid-column-start: 2;
+  grid-row-start: 5;
+  grid-row-end: 8;
+  border-top: 3px solid yellow;
+}
+
+/*Calculator Box*/
+
+#boxRight .container {
+  margin-top: 25px;
+}
+
+#boxRight .container h5 {
+  font-size: 1.3em;
+}
+
+#boxRight .container p {
+  margin-top: 10px;
+  font-size: 1.2em;
+  font-weight: 200;
+}
+
+#boxRight .container img {
+  margin: 15px;
+  float: right;
+}
+
+#boxRight {
+  grid-column-start: 3;
+  grid-row-start: 3;
+  grid-row-end: 6;
+  border-top: 3px solid blue;
+}
+
+/* FOOTER */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
